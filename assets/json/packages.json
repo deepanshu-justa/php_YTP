@@ -1,0 +1,95 @@
+{
+    "packages": [
+      {
+        "id": 1,
+        "name": "Majestic Manali",
+        "duration": "5 days",
+        "cost": 1500,
+        "type": "holiday",
+        "itinerary": [
+          {
+            "day": 1,
+            "description": "Arrival in Manali. Check-in at the hotel and relax."
+          },
+          {
+            "day": 2,
+            "description": "Explore Hadimba Temple and enjoy local sightseeing."
+          },
+          {
+            "day": 3,
+            "description": "Excursion to Rohtang Pass for breathtaking views and adventure activities."
+          },
+          {
+            "day": 4,
+            "description": "Visit Solang Valley for thrilling adventure sports."
+          },
+          {
+            "day": 5,
+            "description": "Departure from Manali. End of the tour."
+          }
+        ],
+        "highlights": [
+          "Visit Hadimba Temple",
+          "Rohtang Pass excursion",
+          "Solang Valley adventure sports"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Enchanting Shimla",
+        "duration": "4 days",
+        "cost": 1200,
+        "type": "holiday",
+        "itinerary": [
+          {
+            "day": 1,
+            "description": "Arrival in Shimla. Check-in at the hotel and relax."
+          },
+          {
+            "day": 2,
+            "description": "Explore Mall Road and enjoy shopping."
+          },
+          {
+            "day": 3,
+            "description": "Visit Jakhu Temple and take a Toy Train ride."
+          },
+          {
+            "day": 4,
+            "description": "Departure from Shimla. End of the tour."
+          }
+        ],
+        "highlights": [
+          "Mall Road shopping",
+          "Jakhu Temple visit",
+          "Toy Train ride"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Romantic Getaway in Dalhousie",
+        "duration": "3 days",
+        "cost": 900,
+        "type": "honeymoon",
+        "itinerary": [
+          {
+            "day": 1,
+            "description": "Arrival in Dalhousie. Check-in at the hotel and relax."
+          },
+          {
+            "day": 2,
+            "description": "Excursion to Khajjiar and visit Panchpula waterfall."
+          },
+          {
+            "day": 3,
+            "description": "Explore St. John's Church. Departure from Dalhousie. End of the tour."
+          }
+        ],
+        "highlights": [
+          "Khajjiar excursion",
+          "Panchpula waterfall visit",
+          "St. John's Church"
+        ]
+      }
+    ]
+  }
+  
