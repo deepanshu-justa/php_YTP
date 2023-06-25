@@ -12,7 +12,7 @@ require('includes/header.php');
                 <p class="text-center mb-2 h-font fs-5 text-success">Explore the Himalayan Paradise with</p>
                 <h1 class="text-center h-font text-primary mb-4">Himachal Tour Packages</h1>
                 <p class="col-md-6 mx-auto text-center fw-bold">Experience the enchantment of Himachal Pradesh through our carefully curated tour packages. Explore majestic landscapes, embrace thrilling adventures, and immerse yourself in the rich culture of this Himalayan gem.</p>
-                <p class="text-center m-5"><a href="" class="btn btn-lg btn-primary rounded-pill h-font fs-3">Plan Your Tour Now!</a></p>
+                <p class="text-center m-5"><a href="" class="btn btn-lg btn-primary rounded-pill h-font fs-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Plan Your Tour Now!</a></p>
             </div>
         </div>
     </section>
@@ -30,7 +30,7 @@ require('includes/header.php');
                             <p class="card-text">YTP Family is not just a travel agency; it is a community of passionate adventurers, explorers, and dreamers. We believe that travel has the power to transform lives, create lasting memories, and connect people from all walks of life.</p>
                             <p class="card-text">With our team of knowledgeable experts, we curate exclusive itineraries that showcase the tranquility of pristine mountain landscapes, the thrill of exhilarating outdoor adventures, and the immersive cultural experiences found in the vibrant destinations of Himachal Pradesh.</p>
                             <p class="card-text">Join our vibrant community and embark on a journey of discovery, where every destination becomes a cherished memory. At YTP Family, we are more than a travel agency – we are your companions, your guides, and your family on the road less traveled. Let's explore the world together and create extraordinary experiences that will stay with you for a lifetime. Welcome to the YTP Family!</p>
-                            <p class="text-center mt-5"><a href="" class="btn btn-lg btn-outline-success m-2">Get In Touch</a><a href="" class="btn btn-lg btn-outline-primary m-2">Plan a Tour</a></p>
+                            <p class="text-center mt-5"><a href="/contact" class="btn btn-lg btn-outline-success m-2">Get In Touch</a><a href="" class="btn btn-lg btn-outline-primary m-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Plan a Tour</a></p>
                         </div>
                     </div>
                 </div>
@@ -49,6 +49,7 @@ require('includes/header.php');
                         <div class="card-body">
                             <h3 class="h2 card-title text-center h-font text-primary">Shimla <sub class="text-success">2N/3D</sub></h3>
                             <p class="h3 card-text d-flex justify-content-around"><i class="bi bi-building" title="Accommodation"></i><i class="bi bi-cup-hot"></i><i class="bi bi-taxi-front"></i><i class="bi bi-camera"></i><i class="bi bi-emoji-laughing"></i></p>
+                            <p class="card-text my-4"><strong>Highlights</strong> Shimla, Kufri, Kullu, Manali</p>
                             <!-- <p class="h2 card-text text-success h-font">&#8377; 2,000/-</p> -->
                             <p class="my-3">
                                 <a href="" class="btn btn-primary btn-lg">Get Free Quote</a>
@@ -184,7 +185,7 @@ require('includes/header.php');
                             <h2 class="h1 h-font text-center text-primary">Mountain Galaxy</h2>
                             <p class="h4 h-font text-center text-warning mb-4"><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill"></i></p>
                             <p class="card-text text-center">Stay in comfort and luxury at our exquisite hotel in Manali. Nestled amidst the breathtaking beauty of the Himalayas, our hotel offers a tranquil retreat with well-appointed rooms, stunning views, and warm hospitality. Experience the perfect blend of modern amenities and the serene charm of nature during your stay with us.</p>
-                            <p class="text-center mt-5"><a href="" class="btn btn-lg btn-outline-success rounded-pill">Hotel Website</a></p>
+                            <p class="text-center mt-5"><a href="https://www.mountaingalaxy.in/" target="_blank" class="btn btn-lg btn-outline-success rounded-pill">Hotel Website</a></p>
                         </div>
                     </div>
                 </div>
@@ -195,6 +196,7 @@ require('includes/header.php');
 </main>
 
 <?php
+include('includes/formModal.php');
 require('includes/footer.php');
 
 ?>

@@ -20,8 +20,8 @@ else if ($uri === "/about") {
 else if ($uri === "/contact") {
     require 'pages/contact.php';
 }
-else if ($uri === "/login") {
-    require 'admin/login.php';
+else if ($uri === "/packages") {
+    require 'pages/packages.php';
 }
 else {
     require 'pages/404.php';
