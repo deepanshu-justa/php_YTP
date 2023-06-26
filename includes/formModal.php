@@ -27,7 +27,7 @@
                     </div>
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="email" name="email" placeholder="Password">
-                        <label for="email">Phone</label>
+                        <label for="email">Email</label>
                     </div>
                     <div class="form-floating mb-3">
                         <textarea class="form-control" placeholder="Leave a comment here" id="comments" name="comments" style="height: 100px"></textarea>
@@ -39,3 +39,27 @@
         </div>
     </div>
 </div>
+
+<script>
+function updatePckName(value) {
+  // Find the input field by its name
+  var inputField = document.getElementsByName('pck_name')[0];
+  
+  // Update the value
+  inputField.value = value;
+
+  // Make the input field uneditable
+  inputField.readOnly = true;
+}
+
+function resetPckName() {
+  // Find the input field by its name
+  var inputField = document.getElementsByName('pck_name')[0];
+  
+  // Update the value
+  inputField.value = "";
+
+  // Make the input field uneditable
+  inputField.readOnly = false;
+}
+</script>

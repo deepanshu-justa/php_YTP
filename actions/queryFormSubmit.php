@@ -2,13 +2,17 @@
 // Check if the honeypot field is empty (indicating a human user)
 if (empty($_POST['hp'])) {
     // Get form data
+    $pckName = $_POST['pck_name'];
     $name = $_POST['name'];
     $phone = $_POST['phone'];
+    $email = $_POST['email'];
     $comments = $_POST['comments'];
 
     // Compose email message
     $message = "Name: $name\n";
     $message .= "Phone: $phone\n";
+    $message .= "Email: $email\n";
+    $message .= "Package: $pckName\n";
     $message .= "Comments: $comments\n";
 
     // Set the email parameters

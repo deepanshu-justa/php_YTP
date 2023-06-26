@@ -25,6 +25,21 @@
             font-weight: 700;
             /* font-family: 'Poppins', sans-serif; */
         }
+
+        section {
+            margin-bottom: 8rem;
+        }
+
+        input[name="phone"]::-webkit-inner-spin-button,
+input[name="phone"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[name="phone"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
     </style>
 
     <!-- Google Tag Manager -->
