@@ -23,6 +23,9 @@ else if ($uri === "/contact") {
 else if ($uri === "/packages") {
     require 'pages/packages.php';
 }
+else if ($uri === "/thankyou") {
+    require 'pages/thankyou.php';
+}
 else {
     require 'pages/404.php';
 }

@@ -25,6 +25,9 @@ if (empty($_POST['hp'])) {
 
     // Check if the email was sent successfully
     if ($mailSent) {
+        // Redirect to the root folder
+    header("Location: /thankyou");
+    exit;
         echo "Email sent successfully.";
     } else {
         echo "Failed to send email.";

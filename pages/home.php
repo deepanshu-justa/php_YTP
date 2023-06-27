@@ -18,8 +18,8 @@ $packages = $data['packages'];
     <section id="banner">
         <div class="container-fluid py-2 p-xl-4" style="background-image: url('assets/images/bg.png');">
             <div class="card py-5" style="background-color: rgba(255,255,255,0.3);">
-                <p class="text-center mb-2 h-font fs-5 text-success">Explore the Himalayan Paradise with</p>
-                <h1 class="text-center h-font text-primary mb-4">Himachal Tour Packages</h1>
+                <h1 class="text-center h-font text-primary">Himachal Tour Packages</h1>
+                <h2 class="text-center mb-2 h-font fs-5 text-success mb-4">by Your Travelling Partner</h2>
                 <p class="col-md-6 mx-auto text-center fw-bold">Experience the enchantment of Himachal Pradesh through our carefully curated tour packages. Explore majestic landscapes, embrace thrilling adventures, and immerse yourself in the rich culture of this Himalayan gem.</p>
                 <p class="text-center m-5"><a href="" class="btn btn-lg btn-primary rounded-pill h-font fs-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="resetPckName()">Plan Your Tour Now!</a></p>
             </div>
@@ -31,7 +31,7 @@ $packages = $data['packages'];
             <div class="card shadow-lg">
                 <div class="row g-0">
                     <div class="col-sm-6 mx-auto col-xl-5 order-2 order-xl-1">
-                        <img src="assets/images/collage.png" class="img-fluid rounded-start" alt="...">
+                        <img src="assets/images/Collage.png" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-xl-7 order-1 order-xl-2">
                         <div class="card-body">
