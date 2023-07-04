@@ -8,7 +8,7 @@
 //     die();
 // }
 
-$uri = $_SERVER['REQUEST_URI'];
+$uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 if ($uri === "/") {
     require 'pages/home.php';
